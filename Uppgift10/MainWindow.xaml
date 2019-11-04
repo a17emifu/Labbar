@@ -1,0 +1,16 @@
+﻿<Window x:Class="Uppgift10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift10"
+        mc:Ignorable="d"
+        Title="Gissa Talet" Height="450" Width="800">
+    <Grid>
+        <Label Content="Gissning" HorizontalAlignment="Left" Margin="114,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxNum" HorizontalAlignment="Left" Height="23" Margin="114,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnRandom" Content="Slumpa tal" HorizontalAlignment="Left" Margin="249,90,0,0" VerticalAlignment="Top" Width="75" Click="btnRandom_Click"/>
+        <Button x:Name="btnSuggest" Content="Gissa" HorizontalAlignment="Left" Margin="159,125,0,0" VerticalAlignment="Top" Width="75" Click="btnSuggest_Click"/>
+        <TextBlock x:Name="boxAnswer" HorizontalAlignment="Left" Margin="114,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="286"/>
+    </Grid>
+</Window>
